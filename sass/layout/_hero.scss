@@ -1,0 +1,23 @@
+.hero {
+    max-width: 1600px;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: $dark-color-footer;
+    border-top: 1px solid #ececec;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__title {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 696px;
+      margin-bottom: 30px;
+    }
+  }
+  

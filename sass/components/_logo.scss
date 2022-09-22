@@ -1,0 +1,27 @@
+.logo {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: $accent-color;
+    transition: color 250ms $transition-property, fill 250ms $transition-property;
+    margin-bottom: 20px;
+    margin-right: 93px;
+    &--light {
+      color: $white-color;
+      transition: color 250ms $transition-property, fill 250ms $transition-property;
+    }
+    &--dark {
+      color: $black-color;
+      transition: color 250ms $transition-property, fill 250ms $transition-property;
+    }
+    &:hover .logo--light,
+    &:focus .logo--light,
+    &:hover .logo--dark,
+    &:focus .logo--dark {
+      color: $accent-color;
+      fill: $accent-color;
+    }
+  }
+  
