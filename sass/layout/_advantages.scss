@@ -9,11 +9,9 @@
       justify-content: space-between;
       }
       &__svg {
-        display: flex;
+        @extend %flexcenter;
         width: 270px;
         height: 120px;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 30px;
         background-color: $light-grey-color;
         border-radius: 4px;
